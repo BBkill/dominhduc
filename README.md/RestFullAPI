@@ -11,22 +11,14 @@
 •	Ví dụ: thông tin của 1 User được gửi lại cho database:
 
 {
-
 	"data": {
-   
-        "user_name": "Do Minh Duc",
-
-        "user_date_of_birth": "01/01/2001",
-
-        "user_gender": "male",
-
-        "user_country": "Viet Nam",
-
-        "user_name": "Duc0101",
-	
-        "user_password": "123456789",
-
-        "user_email": "example@gmail.com"
+        	"user_name": "Do Minh Duc"'
+        	"user_date_of_birth": "01/01/2001"'
+        	"user_gender": "male",
+	        "ser_country": "Viet Nam",
+        	"user_name": "Duc0101",
+        	"user_password": "123456789",
+       	"user_email": "example@gmail.com"
    }
 }
 
