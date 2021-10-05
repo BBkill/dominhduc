@@ -1,0 +1,22 @@
+•Khái niệm RestFull API: 
+	1.API: là 1 cầu nối giữa cơ sở dữ liệu và người dung các ứng dụng mạng. Là một interface đảm nhận trách nghiệm trả về dữ liệu mình yêu cầu.
+	2.RestFull API: là một chuẩn thiết kế các API để các ứng dụng (như web, app, ….) có thể tương tác với nhau hay chia sẻ cùng 1 cơ sở dữ liệu. 
+
+•Các METHOD của API:
+	1.GET (select): lấy tài nguyên(dữ liệu từ database) được yêu cầu.
+	2.POST (create): tạo một nguồn dữ liệu mới.
+	3.PUT (update): cập nhật thông tin cho dữ liệu được yêu cầu.
+	4.DELETE: xóa dữ liệu được yêu cầu.
+•Ví dụ: thông tin của 1 User được gửi lại cho database:
+{
+   "data": {
+        "user_name": "Do Minh Duc",
+        "user_date_of_birth": "01/01/2001",
+        "user_gender": "male",
+        "user_country": "Viet Nam",
+        "user_name": "Duc0101",
+        "user_password": "123456789",
+        "user_email": "example@gmail.com"
+   }
+}
+
